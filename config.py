@@ -1,0 +1,7 @@
+user = "root"
+password = "root"
+host = "localhost"
+database = "kazino"
+token = "6694697463:AAFPfetTP6tOqKDkPAc8ZaqqD7S4QwcZaO8"
+cop = "C:\\Program Files\\Tesseract-OCR\\tesseract.exe"
+admin = "6292440646:AAEWLemYcNkpndOiRwGASXmaQATXb-faSLQ" 
