@@ -1,6 +1,6 @@
 from aiogram import Dispatcher, Bot, executor, types
 import logging
-import mysql.connector
+import sqlite3
 from config import user, password, host, database, admin
 
 
@@ -9,15 +9,7 @@ from config import user, password, host, database, admin
 #---------------------------------MySQL Config-------------------------------#                                                                        
 ##############################################################################
 
-config = {
-    'user': user,
-    'password': password,
-    'host': host,
-    'database': database,
-    'raise_on_warnings': True,
-}
-
-link = mysql.connector.connect(**config)
+link = sqlite3.connect('db.db')
 
 cursor = link.cursor()
 
